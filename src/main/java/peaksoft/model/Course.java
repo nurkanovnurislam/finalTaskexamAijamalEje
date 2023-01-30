@@ -47,7 +47,7 @@ public class Course implements Comparable<LocalDate> {
     @Override
     public String toString() {
         return "Course{" +
-                "id=" + id +
+                "id = " + id +
                 ", courseName='" + courseName + '\'' +
                 ", duration=" + duration +
                 ", createAt=" + createAt +
